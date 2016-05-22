@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Wiki </title>
+          <script src="lib/live.js" charset="utf-8"></script>
+          <script src="lib/q.js"></script>    
+          <script src="//code.jquery.com/jquery-2.1.4.min.js" charset="utf-8"></script>
+          <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.12.0/lodash.min.js" charset="utf-8"></script> 
+          <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" charset="utf-8"></script>
+  
+          <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+          <link rel='stylesheet' href='dev/style.css' />
+    </head>
+    <body>
+        <div class='container' id='app-container'></div>
+        
+        <script> var USER = <%- user %>; </script>        
+        <script src="dev/bundle.js" charset="utf-8"></script>
+    </body>
+</html>
